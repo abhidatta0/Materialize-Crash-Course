@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Materialize Sandbox</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- PAGINATION -->
+        <ul class="pagination">
+            <li class="disabled"><a href="#"><i class="material-icons">chevron_left</i></a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li class="waves-effect"><a href="#">2</a></li>
+            <li class="waves-effect"><a href="#">3</a></li>
+            <li class="waves-effect"><a href="#">4</a></li>
+            <li class="waves-effect"><a href="#">5</a></li>
+            <li class="waves-effect"><a href="">6</a></li>
+            <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+        </ul>
+
+        <!-- BREADCRUMBS -->
+        <nav>
+            <div class="nav-wrapper">
+                <div class="col s12">
+                    <a href="#" class="breadcrumb">First</a>
+                    <a href="#" class="breadcrumb">Second</a>
+                    <a href="#" class="breadcrumb">Third</a>
+                </div>
+            </div>
+        </nav>
+        <br><br>
+
+        <!-- CHIP -->
+        <div class="chip">
+            <img src="face.jpg">Abhirup Datta
+        </div>
+
+        <!-- TAG -->
+        <div class="chip">
+            Tag 1
+            <i class="close material-icons">close</i>
+        </div>
+
+        <div class="chip">
+            Tag 2
+            <i class="close material-icons">close</i>
+        </div>
+       
+        <!-- FORM -->
+        <h3>FORMS</h3>
+        <form>
+          <div class="input-field">
+              <input type="text" id="name">
+              <label for="name" class="active">Name</label>
+          </div>
+          <div class="input-field">
+              <input type="email" id="email" class="validate">
+              <label for="email" class="active">Email</label>
+          </div>
+            
+          <div class="input-field">
+              <textarea id="textarea1" class="materialize-textarea"></textarea>
+              <label for="textarea1">Write something</label>
+          </div>
+        </form>
+        
+        <!-- PRELOADERS -->
+        <h3>PRELOADERS</h3>
+        <div class="progress">
+          <div class="determinate" style="width:70%"></div>
+        </div>
+        
+        <div class="progress">
+          <div class="indeterminate"></div>
+        </div>
+        
+        <!-- CIRCULAR -->
+        <div class="preloader-wrapper big active">
+        <div class="spinner-layer spinner-blue-only">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"></div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+
+</html>
